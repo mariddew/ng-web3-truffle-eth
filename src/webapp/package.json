@@ -1,16 +1,10 @@
 {
-  "name": "angular-starter",
-  "version": "6.0.0",
-  "description": "An Angular Webpack Starter kit featuring Angular (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
-  "keywords": [
-    "angular",
-    "angular2",
-    "angular4",
-    "webpack",
-    "typescript"
-  ],
-  "author": "Patrick Stapleton <patrick@angularclass.com>",
-  "homepage": "https://github.com/AngularClass/angular-starter",
+  "name": "ethereum-experiment",
+  "version": "0.0.1",
+  "description": "Ethereum experiment with testrpc, truffle, ng4, web3js and stacks",
+  "keywords": [],
+  "author": "Maris Kheawsaad <marid_dew@hotmail.com>",
+  "homepage": "https://github.com/mariddew/ng-web3-truffle-eth",
   "license": "MIT",
   "scripts": {
     "build:aot:prod": "npm run clean:dist && npm run clean:aot && cross-env BUILD_AOT=1 npm run webpack -- --config config/webpack.prod.js  --progress --profile --bail",
