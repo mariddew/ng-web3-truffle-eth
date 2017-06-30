@@ -1,0 +1,25 @@
+@import "./../assets/css/bootstrap.min.css";
+@import "./../assets/css/magnific-popup.css";
+@import "./../assets/css/font-icons.css";
+@import "./../assets/css/sliders.css";
+@import "./../assets/css/style.css";
+@import "./../assets/css/animate.min.css";
+
+.cur-pointer{
+  cursor: pointer;
+}
+
+.transaction-tb{
+  .td-topic{
+    font-weight: 600;
+  }
+  p{
+    line-height: 10px;
+  }
+}
+
+.loader-mask{
+  .is-busy{
+    opacity: 0.5 !important;
+  }
+}
